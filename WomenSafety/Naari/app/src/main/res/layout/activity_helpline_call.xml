@@ -12,12 +12,14 @@
     <androidx.cardview.widget.CardView
         android:layout_width="250dp"
         android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="25dp"
         android:elevation="10dp"
-        android:onClick="callDistress"
-        app:cardBackgroundColor="@color/first"
+        android:onClick="callPolice"
+        app:cardBackgroundColor="@color/second"
         app:cardCornerRadius="15dp">
 
         <RelativeLayout
@@ -29,7 +31,34 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:clickable="false"
-                android:text="Women In Distress  "
+                android:text="Police"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:elevation="10dp"
+        android:onClick="callDistress"
+        app:cardBackgroundColor="@color/second"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Women Helpline"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp" />
         </RelativeLayout>
@@ -45,7 +74,7 @@
         android:layout_marginBottom="25dp"
         android:elevation="10dp"
         android:onClick="callAbuse"
-        app:cardBackgroundColor="@color/second"
+        app:cardBackgroundColor="@color/four"
         app:cardCornerRadius="15dp">
 
         <RelativeLayout
@@ -73,37 +102,8 @@
         android:layout_marginTop="25dp"
         android:layout_marginBottom="25dp"
         android:elevation="10dp"
-        android:onClick="callPolice"
-        app:cardBackgroundColor="@color/third"
-        app:cardCornerRadius="15dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:clickable="false"
-                android:text="Police"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp" />
-
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="25dp"
-        android:elevation="10dp"
         android:onClick="callHelpline"
-        app:cardBackgroundColor="@color/four"
+        app:cardBackgroundColor="@color/first"
         app:cardCornerRadius="15dp">
 
         <RelativeLayout
@@ -132,7 +132,7 @@
         android:layout_marginBottom="25dp"
         android:elevation="10dp"
         android:onClick="callAmbulance"
-        app:cardBackgroundColor="@color/four"
+        app:cardBackgroundColor="@color/third"
         app:cardCornerRadius="15dp">
 
         <RelativeLayout

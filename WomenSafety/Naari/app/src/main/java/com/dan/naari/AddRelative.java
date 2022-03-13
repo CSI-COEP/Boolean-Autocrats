@@ -63,6 +63,7 @@ public class AddRelative extends AppCompatActivity {
 
     }
 
+
     public void AddData(String newEntry) {
 
         boolean insertData = myDB.addData(newEntry);

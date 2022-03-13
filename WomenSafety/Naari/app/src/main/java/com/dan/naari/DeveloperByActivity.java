@@ -21,18 +21,18 @@ public class DeveloperByActivity extends AppCompatActivity {
     }
 
     public void Sid(View v){
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://example.com"));
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/siddharth-57"));
         startActivity(implicit);
 
     }
 
     public void Shub(View v){
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://example.com"));
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gandhi-shubh02"));
         startActivity(implicit);
 
     }
     public void Shlok(View v){
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://example.com"));
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Shlok-D"));
         startActivity(implicit);
     }
 }

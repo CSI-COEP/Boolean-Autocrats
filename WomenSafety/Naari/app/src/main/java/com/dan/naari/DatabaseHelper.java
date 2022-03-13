@@ -48,6 +48,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public Cursor getListContents(){
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor data = db.rawQuery("SELECT * FROM " + TABLE_NAME, null);
+        System.out.println("\n\n" + data + "\n\n");
         return data;
     }
 }
